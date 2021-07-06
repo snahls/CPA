@@ -1,0 +1,23 @@
+extends layout
+doctype html
+html
+  body
+    block content
+     .stuff
+      a.btn.btn-primary.mb-5(href="/homes.html") Go Back
+      button(type='button' id="btn" onclick="window.print()" value="PRINT") Print
+      h2!=h2     
+      br 
+      div(class="panel-body")!=div
+      br   
+      table(class="table table-striped col-md-12 col-sm-12 col-xs-12")!=table   
+      br    
+      
+  
+//- script(src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+//- block content
+//-  .stuff
+//-   h1= "Company Details"
+//-   table(class="table table-striped col-md-12 col-sm-12 col-xs-12")!=table
+//-   script 
+//-     include script.js
