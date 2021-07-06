@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Company/Director Details</title>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <style>
+ 
+  </style>
+
+</head>
+<body>
+    <button class="btn.btn-primary.mb-5" id="btn" routerLink="/homes">Go Back</button> 
+    <button type='button' id="btn1" onclick="window.print()" value="PRINT">Print</button>
+    <br><br>
+    <h1>{{title}}</h1>
+    <br><br>
+    <div class="panel-body">
+      <h4>{{heading}}</h4>
+      {{about}}
+    </div>
+    <br><br>
+   <table id="log">
+   </table>
+  <br><br>
+  <form (submit)="Sentimental()">
+<div class="s">
+   <input type="submit" id="senti" name="senti" value="Sentimental Analysis">
+   </div>
+   </form>
+   
+
+   <footer>
+    <p>All Rights Reserved © Zensar Technologies 2021</p>
+    </footer>
+
+
+ 
+</body>
+</html>
